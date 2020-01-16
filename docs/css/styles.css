@@ -1912,7 +1912,7 @@ a:hover.back-to-top {
 	.map{
 		width: 37.8625rem;
 		height: 15rem;
-		margin: 0.5em 0.5em 0.5em -0.5em
+		margin: 0.5em
 	}
 
 	.inicio img {
@@ -2102,7 +2102,11 @@ a:hover.back-to-top {
 
 /* Min-width width 992px */
 @media (min-width: 992px) {
-	
+	.map{
+	width: 53.0625rem;
+	height: 25rem;
+	margin: 1em
+	}
 	/* General Styles */
 	.p-heading {
 		width: 65%;
@@ -2334,6 +2338,12 @@ a:hover.back-to-top {
 /* Min-width width 1200px */
 @media (min-width: 1200px) {
 	
+	.map {
+	width: 63.0625rem;
+	height: 25rem;
+	margin: 1em
+	}
+
 	/* General Styles */
 	.p-heading {
 		width: 55%;
@@ -2507,7 +2517,11 @@ a:hover.back-to-top {
 
 /* Min-width width 1600px */
 @media (min-width: 1600px) {
-	
+		.map{
+	width: 63.0625rem;
+	height: 25rem;
+	margin: 1em
+	}
 	/* Navigation */
 	.navbar-custom {
 		padding-right: 12rem;
